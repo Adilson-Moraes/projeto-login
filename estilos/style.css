@@ -47,6 +47,7 @@ section#login {
   height: 515px;
   border-radius: 20px;
   overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.855);
 }
 
 h1 {
@@ -65,14 +66,14 @@ span.material-symbols-outlined {
   color: white;
   width: 40px;
   padding-top: 13px;
-  transform: translateY(-20px);
+  transform: translateY(-23px);
 }
 
 div#campo {
   display: block;
-  padding: 10px;
+  padding: 10px 0px 0px 0px;
   background-color: #5f2c82;
-  border-radius: 10px;
+  border-radius: 8px;
   margin: 5px 10px;
   height: 40px;
   width: 92%;
@@ -80,31 +81,40 @@ div#campo {
 }
 
 input {
-  background-color: #94dad7;
-  padding-left: 10px;
+  background-color: #94cfcd;
+  padding-left: 5px;
   font-size: 1em;
   height: 35px;
   border: 0px;
-  border-radius: 10px;
+  border-radius: 8px;
   width: calc(100% - 45px);
   transform: translateY(-30px);
 }
 
 input#submit {
   display: block;
-  background-color: #678d8c;
+  background-color: #4c919a;
   color: white;
   height: 40px;
   width: 92%;
-  margin: 36px 10px 5px 10px;
+  margin: 45px 0px 5px 10px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+}
+
+input#submit:hover {
+  background-color: #4c919a;
+  cursor: pointer;
 }
 
 input#esqsenha {
   display: block;
   background-color: white;
   color: #678d8c;
-  border: 2px solid #678d8c;
+  border: 1px solid #678d8c;
   width: 92%;
   height: 40px;
   margin: 0px 10px 10px 10px;
+  padding-bottom: 5px;
+  border-radius: 20px;
 }
