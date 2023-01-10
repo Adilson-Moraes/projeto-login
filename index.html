@@ -30,32 +30,41 @@
             Seja bem-vindo(a) novamente. Faça login para acessar sua conta e
             poder fazer as configurações no seu ambiente.
           </p>
-          <form action="login.php" method="post">
+          <form action="login.php" method="post" autocomplete="on">
             <div id="campo">
-              <span class="material-symbols-outlined"> person </span>
+              <label for="iuser"
+                ><span class="material-symbols-outlined"> person </span></label
+              >
               <input
                 type="text"
                 name="user"
-                id="user"
+                id="iuser"
                 placeholder="seu e-mail"
+                required
+                minlength="8"
+                autocomplete="username"
               />
             </div>
 
             <div id="campo">
-              <span class="material-symbols-outlined"> key </span>
+              <label for="ipass"
+                ><span class="material-symbols-outlined"> key </span></label
+              >
               <input
                 type="password"
                 name="pass"
-                id="pass"
+                id="ipass"
                 placeholder="sua senha"
+                required
+                minlength="8"
+                autocomplete="current-password"
               />
             </div>
 
             <input id="submit" type="submit" value="Entrar" />
 
-            <input id="esqsenha" type="button" value="Esqueci a senha" /><a
-              href="#"
-            ></a>
+            <input id="esqsenha" type="button" value="Esqueci a senha" />
+            <a href="#"></a>
           </form>
         </div>
       </section>
