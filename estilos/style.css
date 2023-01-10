@@ -67,6 +67,7 @@ span.material-symbols-outlined {
   width: 40px;
   padding-top: 13px;
   transform: translateY(-23px);
+  padding-left: 5px;
 }
 
 div#campo {
@@ -75,7 +76,7 @@ div#campo {
   background-color: #5f2c82;
   border-radius: 8px;
   margin: 5px 10px;
-  height: 40px;
+  height: 42px;
   width: 92%;
   border: 2px solid #5f2c82;
 }
@@ -84,7 +85,7 @@ input {
   background-color: #94cfcd;
   padding-left: 5px;
   font-size: 1em;
-  height: 35px;
+  height: 36px;
   border: 0px;
   border-radius: 8px;
   width: calc(100% - 45px);
