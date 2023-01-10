@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  section#login {
+    width: 80vw;
+    height: 40vh;
+  }
+
+  div#imagem {
+    float: left;
+    width: 24vw;
+    height: 50vh;
+  }
+
+  p {
+    float: right;
+    margin: 0px;
+    width: 56vw;
+  }
+
+  div#campo {
+    float: right;
+    width: 54vw;
+    margin-left: 0px;
+  }
+
+  input {
+    padding: 10px;
+    margin: 0px;
+  }
+  input#submit {
+    float: right;
+    width: 54vw;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 0px;
+  }
+
+  input#esqsenha {
+    float: right;
+    width: 54vw;
+    margin-right: 10px;
+    margin-left: 0px;
+  }
+}
