@@ -47,8 +47,8 @@ section#login {
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.855);
-  transform: translate(-50%, -50%);
   transition: width 0.6s, height 0.6s;
+  transform: translate(-50%, -50%);
 }
 
 h1 {
